@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	overflow: hidden;
+}
+
+.header>.navs{
+	float: right;
+	margin-right: 30px;
+	display: flex;
+	list-style: none;
+}
+
+.header>.navs>.nav{
+	margin-left: 10px;
+}
+
+.main{
+	width: 960px;
+	margin: 30px auto 170px;
+	text-align: center;
+}
+
+.query.input{
+	width: 521px;
+	height: 17px;
+	padding: 9px 7px;
+}
+
+.query.btn{
+	width: 102px;
+	height: 38px;
+	border:0;
+}
+
+.footer{
+	text-align: center;
+}
+
+.footer>.navs{
+	font-size: 0;
+}
+
+.footer>.navs>.nav{
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 10px;
+}

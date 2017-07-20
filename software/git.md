@@ -96,7 +96,7 @@ git config core.ignorecase false
 ```
 git remote rm origin
 git remote add origin 新的远程代码库的地址
-// 第一次提交时用一下代码 
+// 第一次提交时用一下代码
 git push --set-upstream origin master
 ```
 

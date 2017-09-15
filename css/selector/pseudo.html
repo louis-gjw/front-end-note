@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>伪类</title>
+    <style type="text/css">
+    .link:before {
+        background-color: red;
+        content: '';
+        padding: 0 10px;
+        display: inline-block;
+        height: 10px;
+    }
+
+    .link:after {
+        content: 'after';
+    }
+    </style>
+</head>
+
+<body>
+    <a href="" class="link">xxx</a>
+</body>
+
+</html>
